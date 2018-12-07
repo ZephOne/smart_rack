@@ -1,0 +1,9 @@
+[package]
+name = "smart_rack"
+version = "0.1.0"
+authors = ["ZephOne <zephone@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+reqwest = "0.9.5"
+gtk = "0.5.0"
