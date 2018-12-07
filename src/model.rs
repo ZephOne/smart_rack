@@ -63,7 +63,7 @@ impl OrderList {
     }
 
     pub fn update(&mut self, order: Order) {
-        self.order_list.insert(order.gen_code, order);
+        self.order_list.insert(order.gen_code.clone(), order);
     }
 }
 
